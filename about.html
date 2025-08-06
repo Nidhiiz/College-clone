@@ -100,7 +100,19 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
 }
 .overlay span {
   color: #00bfff;
-}</style>  
+}
+
+.bigger-logo {
+  height: 80px !important;
+  width: auto !important;
+  max-height: 100% !important;
+  display: block !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+</style>  
 
 
 
@@ -151,10 +163,10 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
     <div class="header-lower">
         <div class="container">
             <div class="row demo">
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-md-3 col-sm-6 col-6 d-flex align-items-center">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="images/logo.png" class="img-fluid w-50" alt="logo">
+                            <img src="images/logo.png" class="bigger-logo" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -271,7 +283,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     <div class="col-3">
                         <div class="logo">
                             <a href="index.html">
-                            <img src="images/logo.png" class="img-fluid w-50"
+                            <img src="images/logo.png" class="bigger-logo"
                                 alt="logo">
                         </a>
                         </div>
@@ -299,7 +311,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
 
     <nav class="menu-box">
         <div class="nav-logo pb-5"><a href="index.html">
-            <img src="images/logo.png" alt="" class="w-50"></a>
+            <img src="images/logo.png" alt="" class="bigger-logo"></a>
         </div>
         <div class="menu-outer">
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
@@ -332,36 +344,36 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
          <div class="container">
              <div class="row py-5">
                 <div class="col-md-12 text-justify">
-                      <h1 class="mb-3 text-center">
+                      <h1 class="mb-3 text-center wow fadeInDown" data-wow-delay="0.2s">
                         About Tagore Education Consultants
                        </h1>
-                       <p>
+                       <p class="wow fadeInUp" data-wow-delay="0.3s">
                        Welcome to Tagore Education Consultants, a premier student consultancy firm located in the heart of Dhaka, Bangladesh. Our mission is to address the educational challenges of today's globalized world by bridging the gap between the education systems of Bangladesh and those of developed countries. We foster cross-cultural understanding and collaboration, positioning ourselves as the top education consultancy firm in Bangladesh.
                        </p>
-                       <p>
+                       <p  class="wow fadeInUp" data-wow-delay="0.4s">
                         At Tagore Student Consultants, we provide comprehensive and efficient guidance for studying abroad, empowering students to build active and successful professional careers. Our commitment to personalized attention and a solid foundation ensures that each student receives the support they need to thrive academically and professionally.
                        </p>
-                       <p>
+                       <p class="wow fadeInUp" data-wow-delay="0.5s">
                         As one of the <a href="index.html">leading study abroad agencies</a> in Bangladesh, we facilitate placements in universities and colleges worldwide. Our close partnerships with students and institutions guarantee that every student receives accurate and tailored advice. Our extensive knowledge of global educational institutions, coupled with our strong relationships with them, ensures optimal placement opportunities for our students.
 
                        </p>
 
-                       <p>
+                       <p class="wow fadeInUp" data-wow-delay="0.6s">
                         In addition to our educational services, we excel in immigration consultancy. We assist skilled individuals, families, and business professionals in emigrating from Bangladesh to countries such as the USA, UK, Canada, Australia, Germany, Italy, Norway, Hungary, Romania, and Dubai. For your peace of mind, all immigration advice is provided in writing. We manage the entire application process, including residence  processing, business migration, job search, qualification and trades recognition, and resettlement services. We also handle visitor s, making us the best immigration consultancy firm in Dhaka.
                        </p>
 
-                       <p>
+                       <p class="wow fadeInUp" data-wow-delay="0.7s">
                         Our reputation is built on the satisfaction of our clients, many of whom return for additional services and recommend us to others. We take pride in the testimonials we receive and strive to achieve even greater success in the years to come.
                        </p>
 
-                       <p>
+                       <p class="wow fadeInUp" data-wow-delay="0.8s">
                         Join us at Tagore Education Consultants and experience <a href="index.html">our exceptional services</a> firsthand. If you have any questions or need further information, please do not hesitate to <a href=" contact-us">contact our friendly staff</a> by phone or email. We look forward to helping you achieve your educational and immigration goals.
                        </p>
 
-                       <h2 class="mt-2">
+                       <h2 class="mt-2 wow fadeInUp" data-wow-delay="0.9s">
                         Contact Us
                        </h2>
-                       <p>
+                       <p class="wow fadeInUp" data-wow-delay="0.9s">
                         For more information, <a href="index.html">visit our website</a> or reach out to us directly. Our dedicated team is here to assist you every step of the way.
                        </p>
                 </div>
@@ -378,9 +390,9 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="logo-widget footer-widget">
-                        <div class="logo mb-2">
+                        <!-- <div class="logo mb-2">
                             <img src="images/logo.png" class="img-fluid w-50" alt="logo">
-                        </div>
+                        </div> -->
                         <div class="text">
                             <p class="mb-2">Tagore Education Consultants is one of the best student consultancy firm located in the heart of the capital of Bangladesh.</p>
                             <p><i class="flaticon-pin"></i> Banani Office: House 61(1st Floor), Block F, Road  08, Banani, Dhaka-1213</p>
@@ -499,6 +511,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
 <script src="js/appear.js"></script>
 <script src="js/scrollbar.js"></script>
 <script src="js/jquery.nice-select.min.js"></script>
+<script>new WOW().init();</script>
 
 
 

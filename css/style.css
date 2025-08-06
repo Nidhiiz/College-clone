@@ -393,7 +393,7 @@ img {
   content: "";
   bottom: 110%;
   left: 50%;
-  background-color: #7fc31c;
+  background-color: orange;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   border-radius: 50%;

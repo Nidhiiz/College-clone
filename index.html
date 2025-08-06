@@ -62,7 +62,29 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
     
     
 
+<style>
+    /* Hover Pop Effect */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.service-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+
+.theme-btn.btn-two:hover {
+    background: orange !important; /* Force orange background */
+    color: white !important;       /* White text on hover */
+    border-color: orange !important;
+}
+.btn-box :hover{
+    color: white !important;
+
+}
+</style>
 
 
 
@@ -404,10 +426,10 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
             <!-- <div class="three-item-carousel owl-carousel owl-theme"> -->
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 wow fadeInUp service-card" data-wow-delay="0.4s" data-wow-duration="1500ms">
                         <div class="service-block-one">
                             <div class="inner-box text-center">
-                                <div class="pattern-layer" style="background-image: url(https://tse3.mm.bing.net/th/id/OIP.VU1PBthscHDKqX80CSQGOAHaDm?pid=ImgDet&w=199&h=96&c=7&dpr=1.3&o=7&rm=3); opacity: 0.2;"></div>
+                                <div class="pattern-layer service-card" style="background-image: url(https://tse3.mm.bing.net/th/id/OIP.VU1PBthscHDKqX80CSQGOAHaDm?pid=ImgDet&w=199&h=96&c=7&dpr=1.3&o=7&rm=3); opacity: 0.2;"></div>
                                 <div class="icon-box"><img src="assets/images/icons/icon-2.png" alt="">
                                 </div>
                                 <h3><a href="study.html">Colleges</a></h3>
@@ -417,12 +439,12 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 wow fadeInUp service-card" data-wow-delay="0.6s" data-wow-duration="1500ms">
                         <div class="service-block-one">
                             <div class="inner-box text-center">
-                                <div class="pattern-layer" style="background-image: url(images/apply-now.jpg); opacity: 0.2;">
+                                <div class="pattern-layer service-card" style="background-image: url(images/apply-now.jpg); opacity: 0.2;">
                                 </div>
-                                <div class="icon-box"><img src="assets/images/icons/icon-1.png" alt="">
+                                <div class="icon-box " ><img src="assets/images/icons/icon-1.png" alt="">
                                 </div>
                                 <h3><a href="study_Cource.html">Courses</a></h3>
                                 <p class="text-justify text-center" style="color: #000;">Apply through Student Consultancy Firm In BD &
@@ -432,10 +454,10 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3">
+                    <div class="col-sm-12 col-lg-4 col-md-6 mb-3 wow fadeInUp service-card" data-wow-delay="0.8s" data-wow-duration="1500ms">
                         <div class="service-block-one">
                             <div class="inner-box text-center">
-                                <div class="pattern-layer" style="background-image: url(images/scholarship.jpg); opacity: 0.2;"></div>
+                                <div class="pattern-layer service-card" style="background-image: url(images/scholarship.jpg); opacity: 0.2;"></div>
                                 <div class="icon-box"><img src="assets/images/icons/icon-8.png" alt="">
                                 </div>
                                 <h3><a href="about.html">Scholarship</a></h3>
@@ -462,12 +484,12 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="image-box">
+                    <div class="image-box service-card wow animated fadeInLeft" data-wow-delay="0.3s">
                                                     <img src="https://t3.ftcdn.net/jpg/04/90/34/44/360_F_490344447_Ch7W8Y1jNWK81YX5iUMmbiInJ3SACiGV.jpg" alt="tagore Education Consultants About" class="img-fluid">
                                             </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                    <div class="content-box">
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column ">
+                    <div class="content-box wow animated fadeInRight" data-wow-delay="0.3s">
                         <div class="sec-title">
                             <h6>About tagore Education Consultants </h6>
                             <h2>We’re Trusted <br>Education Consultant</h2>
@@ -501,12 +523,12 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                 <h2>Best Countries to Study  </h2>
             </div>
         </div>
-        <div class="project-tab">
+        <div class="project-tab wow animated fadeInRight" data-wow-delay="0.3s">
             <div class="auto-container">
                 <div class="p-tabs-content">
                     <div class="p-tab active-tab" id="tab-1">
                         <div class="three-item-carousel owl-carousel owl-theme">
-                                                                                            <div class="card" style="border-radius: 20px;">
+                                 <div class="card service-card" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="countries-block-one">
                                             <div class="inner-box">
@@ -529,7 +551,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                         </div>
                                     </div>
                                 </div>
-                                                                <div class="card" style="border-radius: 20px;">
+                                                                <div class="card service-card" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="countries-block-one">
                                             <div class="inner-box">
@@ -552,7 +574,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                         </div>
                                     </div>
                                 </div>
-                                                                <div class="card" style="border-radius: 20px;">
+                                                                <div class="card service-card" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="countries-block-one">
                                             <div class="inner-box">
@@ -575,7 +597,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                         </div>
                                     </div>
                                 </div>
-                                                                <div class="card" style="border-radius: 20px;">
+                                                                <div class="card service-card" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="countries-block-one">
                                             <div class="inner-box">
@@ -598,7 +620,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                         </div>
                                     </div>
                                 </div>
-                                                                <div class="card" style="border-radius: 20px;">
+                                                                <div class="card service-card" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="countries-block-one">
                                             <div class="inner-box">
@@ -621,7 +643,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                         </div>
                                     </div>
                                 </div>
-                                                                <div class="card" style="border-radius: 20px;">
+                                                                <div class="card service-card" style="border-radius: 20px;">
                                     <div class="card-body">
                                         <div class="countries-block-one">
                                             <div class="inner-box">
@@ -652,7 +674,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
     <!-- countries-section end -->
 
     <!-- testimonial-section -->
-    <section class="testimonial-section bg-color-1">
+    <section class="testimonial-section bg-color-1 wow animated fadeInLeft" data-wow-delay="0.3s">
         <div class="auto-container">
             <div class="sec-title centred">
                 <h6>  Success Story</h6>
@@ -662,7 +684,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
             </div>
             <div class="three-item-carousel owl-carousel owl-theme owl-dots-none">
                                                       <a href="https://tagoreeducons.com//success-story-details/aditi-roy-details">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>I got awesome customer service from the tagore Education Consultants, they know what they are doing. Straight to the point, help with the forms if you need it. Amazing    success results always....
@@ -682,7 +704,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/md-sabrian-chodhuri-details">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>I Inspired by my cousin’s success with tagore Educational Consultant, I sought their help. tagore Education was with me every step of the way. I am grateful to tagore Educational Consultants for...
@@ -702,7 +724,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/md-rafi-details">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>Thanks to tagore Education Consultants, I'm heading to Italy for my Masters at the University of Bargamo. From paperwork to    processing, they've been my guiding light. With their help, I've se...
@@ -722,7 +744,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/md-monir-hossain-details">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>Today, I received a work permit    for Norway from tagore Education Consultants. They guided me through every step, from submitting my documents to preparing for the embassy interview. tagore m...
@@ -742,7 +764,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/md-jamil-ali-sifat">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>tagore Education Consultants made my dream of studying in Italy come true! They handled everything from paperwork to interview prep flawlessly. Grateful for their support and requesting prayers fo...
@@ -762,7 +784,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/masud-raj-  -success-review">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>I'm Masud Raj, and I'm share to my experience with tagore Education Consultants. With their support, I secured my    for an MBA in International Finance and Economy at the University of Macerata...
@@ -782,7 +804,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/md-sultan-ali-  -success-review">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>I'm Md. Sultan Ali from Kushtia. tagore Education Consultants helped me secure admission at the University of Campania in Italy for data analysis. With their guidance, I smoothly obtained my stude...
@@ -802,7 +824,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                     </div>
                 </a>
                                       <a href="https://tagoreeducons.com//success-story-details/sadia-sharmin-  -success-review">
-                    <div class="testimonial-block-one">
+                    <div class="testimonial-block-one service-card">
                         <div class="inner-box">
                             <div class="text">
                                     <p>I'm Sadia Sharmin, and my journey with tagore Educational Consultancy has been incredible. With their guidance, I'm securing admission at the University of Estarn Pidmont for Medical Biotechnology...
@@ -829,7 +851,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
     <!-- testimonial-section end -->
 
      <!-- event-section -->
-    <section class="event-section">
+    <section class="event-section wow animated fadeInUp" data-wow-delay="0.3s">
         <div class="container">
             <div class="sec-title centred">
                 <h6>Upcoming Event</h6>
@@ -978,7 +1000,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
     <!-- event-section end -->
 
     <!-- team-section -->
-    <section class="team-section centred bg-color-1">
+    <section class="team-section centred bg-color-1 wow animated fadeInDown" data-wow-delay="0.3s">
         <div class="auto-container">
             <div class="sec-title centred">
                 <h6>Expert Staff Members</h6>
@@ -1574,7 +1596,9 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
 <script src="js/scrollbar.js"></script>
 <script src="js/jquery.nice-select.min.js"></script>
 
-
+<script>
+  new WOW().init();
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
