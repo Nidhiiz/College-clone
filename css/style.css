@@ -393,7 +393,7 @@ img {
   content: "";
   bottom: 110%;
   left: 50%;
-  background-color: orange;
+  background-color:#3786ff;     ;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   border-radius: 50%;
@@ -12517,7 +12517,6 @@ label {
 
 
 .theme-btn.btn-two:hover {
-    background: orange !important; /* Force orange background */
     color: white !important;       /* White text on hover */
     border-color: orange !important;
 }
@@ -12664,3 +12663,20 @@ label {
         flex-direction: column;
       }
     }
+
+    .headingg {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  
+}
+
+.headingg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px; /* thickness of the line */
+  background-color: #ff6600; /* color of the line */
+}
