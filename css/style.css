@@ -74,7 +74,7 @@ body {
   line-height:26px;
   font-weight:400;
   background:#ffffff;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -120,7 +120,7 @@ body {
 
 
 a{
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   text-decoration:none;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -135,7 +135,7 @@ a:hover{
 }
 
 input,button,select,textarea{
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -172,7 +172,7 @@ textarea:focus{
 
 p{
   position: relative;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   color: #808080;
   font-weight: 400;
   margin: 0px;
@@ -181,7 +181,7 @@ p{
 
 h1,h2,h3,h4,h5,h6{
   position:relative;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 400;
   color: #142b3c;
   margin: 0px;
@@ -248,7 +248,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 500;
   letter-spacing: 15px;
   display: inline-block;
@@ -367,7 +367,7 @@ img {
   font-size: 14px;
   line-height: 26px;
   color: #fff !important;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 800;
   text-align: center;
   padding: 14.5px 34px;
@@ -443,7 +443,7 @@ img {
   display: inline-block;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   height: 54px;
   width: 54px;
   line-height: 54px;
@@ -475,7 +475,7 @@ img {
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
-  font-family: 'Lexend', sans-serif;
+  font-family: Georgia, serif;
   color: #1e2434;
   background-color: #f4f5f4;
   padding: 15px 40px;
@@ -841,7 +841,7 @@ img {
   margin-right: 15px;
   font-size: 14px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   text-transform: uppercase;
 }
 
@@ -857,7 +857,7 @@ img {
   display: inline-block;
   font-size: 14px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   text-transform: uppercase;
   margin-left: 15px;
 }
@@ -1068,7 +1068,7 @@ img {
   font-size:14px;
   line-height:30px;
   padding: 25px 0px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight:800;
   opacity:1;
   color: #142b3c;
@@ -1122,7 +1122,7 @@ img {
   display:block;
   font-size:16px;
   line-height:30px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   font-weight:400;
   opacity:1;
   color: #142b3c;
@@ -1878,7 +1878,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -2023,7 +2023,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -3px;
   top: -4px;
 }
@@ -2038,7 +2038,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .service-section .owl-dot {
@@ -2053,7 +2053,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
   left: -15px;
   top: -6px;
@@ -2154,7 +2154,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   color: #fff;
 }
 
@@ -2231,7 +2231,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 20px;
   line-height: 28px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
   margin-bottom: 1px;
 }
@@ -2848,7 +2848,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #000;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -3px;
   top: -4px;
 }
@@ -2863,7 +2863,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #000;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .countries-section .owl-dot {
@@ -2878,7 +2878,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #000;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -15px;
   top: -6px;
 }
@@ -3409,7 +3409,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 800;
   text-transform: uppercase;
   transition: all 500ms ease;
@@ -3533,7 +3533,7 @@ div#mCSB_1_container{
 .testimonial-block-one .inner-box .lower-box h4 span{
   font-weight: 16px;
   font-weight: 400;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .testimonial-block-one .inner-box .lower-box .date{
@@ -4026,7 +4026,7 @@ div#mCSB_1_container{
   font-size: 16px;
   line-height: 26px;
   color: #b8bfc5;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .footer-top a:hover{
@@ -4206,7 +4206,7 @@ div#mCSB_1_container{
   font-size: 16px;
   line-height: 26px;
   color: #fff;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .footer-bottom a:hover{
@@ -4242,7 +4242,7 @@ div#mCSB_1_container{
   text-align: center;
   border-radius: 50px;
   background: #4a5762;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 800;
   cursor: pointer;
   margin: 0px;
@@ -4862,7 +4862,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 60px;
   line-height: 60px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
 }
 
@@ -5049,7 +5049,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 120px;
   line-height: 120px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 800;
   color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -5229,7 +5229,7 @@ div#mCSB_1_container{
   width: 150px;
   font-size: 13px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   text-transform: uppercase;
   letter-spacing: -0.5px;
 }
@@ -5301,7 +5301,7 @@ div#mCSB_1_container{
   bottom: 13px;
   font-size: 18px;
   line-height: 26px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
   color: #2d363e;
 }
@@ -5405,7 +5405,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 26px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
   /* color: #a7aaae; */
   color: #000;
@@ -6516,7 +6516,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #bdc4ca;
@@ -6721,7 +6721,7 @@ div#mCSB_1_container{
   color: #fff;
   font-size: 16px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   border: none !important;
   padding-right: 18px;
 }
@@ -6833,7 +6833,7 @@ div#mCSB_1_container{
   width: 150px;
   font-size: 13px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   text-transform: uppercase;
   letter-spacing: -0.5px;
   color: #fff;
@@ -6929,7 +6929,7 @@ div#mCSB_1_container{
   text-align: center;
   font-size: 200px;
   line-height: 200px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 800;
   text-transform: uppercase;
   color: #f7f5f5;
@@ -7068,7 +7068,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -3px;
   top: -4px;
 }
@@ -7083,7 +7083,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .service-style-three .owl-dot {
@@ -7098,7 +7098,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
   left: -15px;
   top: -6px;
@@ -7178,7 +7178,7 @@ div#mCSB_1_container{
   width: 150px;
   font-size: 10px;
   font-weight: 800;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   text-transform: uppercase;
   letter-spacing: -0.5px;
 }
@@ -7326,7 +7326,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 150px;
   line-height: 150px;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 800;
   color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -7680,7 +7680,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #a3b1b9;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -3px;
   top: -4px;
 }
@@ -7695,7 +7695,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #a3b1b9;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .chooseus-style-three .owl-dot {
@@ -7709,7 +7709,7 @@ div#mCSB_1_container{
   line-height: 30px;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   color: #a3b1b9;
   left: -15px;
   top: -6px;
@@ -8212,7 +8212,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -3px;
   top: -4px;
 }
@@ -8227,7 +8227,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .news-section.style-two .two-item-carousel .owl-dot {
@@ -8242,7 +8242,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
   left: -15px;
   top: -6px;
@@ -9078,7 +9078,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   left: -3px;
   top: -4px;
 }
@@ -9093,7 +9093,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .team-section .owl-dot {
@@ -9108,7 +9108,7 @@ div#mCSB_1_container{
   font-size: 16px;
   font-weight: 700;
   color: #828080;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
   left: -15px;
   top: -6px;
@@ -9150,7 +9150,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 16px;
   color: #828080;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   padding: 8px 14px;
   border: 1px solid #ecebeb;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.10);
@@ -9925,7 +9925,7 @@ div#mCSB_1_container{
   font-size: 70px;
   line-height: 70px;
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 300;
 }
 
@@ -9978,7 +9978,7 @@ div#mCSB_1_container{
   font-size: 70px;
   line-height: 70px;
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 300;
 }
 
@@ -10398,7 +10398,7 @@ div#mCSB_1_container{
   font-size: 70px;
   line-height: 70px;
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 300;
 }
 
@@ -10451,7 +10451,7 @@ div#mCSB_1_container{
   font-size: 70px;
   line-height: 70px;
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 300;
 }
 
@@ -11475,7 +11475,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
   background: #fff;
   padding: 9px 15px;
@@ -11789,7 +11789,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 24px;
   line-height: 32px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   margin-bottom: 14px;
 }
 
@@ -11861,7 +11861,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
   background: #fff;
   padding: 9px 15px;
@@ -12269,7 +12269,7 @@ div#mCSB_1_container{
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   margin-bottom: 2px;
 }
 
@@ -12390,7 +12390,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
 }
 
 .contactinfo-section .single-item .phone a:hover{
@@ -12405,7 +12405,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Heebo', sans-serif;
+  font-family: Georgia, serif;
   color: #828080;
 }
 
