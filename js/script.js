@@ -754,3 +754,42 @@
 
 
 })(window.jQuery);
+
+// ----
+
+document.querySelector('.quick-btnn').addEventListener('click', function() {
+    document.getElementById('popupForm').style.display = 'block';
+});
+
+document.getElementById('closePopup').addEventListener('click', function() {
+    document.getElementById('popupForm').style.display = 'none';
+});
+
+window.addEventListener('click', function(e) {
+    if (e.target.id === 'popupForm') {
+        document.getElementById('popupForm').style.display = 'none';
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const counters = document.querySelectorAll(".odometer");
+    
+    counters.forEach(counter => {
+        counter.innerText = "00"; // start from 00
+
+        const updateCounter = () => {
+            const target = +counter.getAttribute("data-count");
+            const current = +counter.innerText;
+            const increment = target / 100; // speed control
+
+            if (current < target) {
+                counter.innerText = Math.ceil(current + increment);
+                setTimeout(updateCounter, 20);
+            } else {
+                counter.innerText = target;
+            }
+        };
+
+        updateCounter();
+    });
+});

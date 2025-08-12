@@ -71,7 +71,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
 <body>
     
     <div class="quick-enquiryy">
-         <a style="color: white;" href="contact.html" class="quick-btnn" >QUICK ENQUIRY</a>
+        <a style="color: white; cursor: pointer;" class="quick-btnn">QUICK ENQUIRY</a>
     </div>
 
     <div class="boxed_wrapper">
@@ -111,9 +111,9 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
         <div class="container">
             <div class="row demo">
                 <div class="col-md-3 col-sm-6 col-6">
-                    <div class="logo">
+                    <div >
                         <a href="#home">
-                            <img src="images/logo.png" class="bigger-logo" alt="logo">
+                            <img src="images/logo.png"  alt="logo">
                         </a>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
 
                                             <ul class="clearfix">
                                                 <li>
-                                                    <a href="Entrance exam.html">undergraduate Common Entrance Exam</a>
+                                                    <a href="Entrance_exam_UG.html">undergraduate Common Entrance Exam</a>
                                                 </li>
                                                 
                                                 <li>
@@ -196,13 +196,13 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                                 </li>
                                                 
                                                 <li>
-                                                    <a href="about.html">Scholarships</a>
+                                                    <a href="Scholarship.html">Scholarships</a>
                                                 </li>
                                                 <li>
-                                                    <a href="about.html">Our Blogs</a>
+                                                    <a href="blogs.html">Our Blogs</a>
                                                 </li>
                                                 <li>
-                                                    <a href="about.html">Our Gallary</a>
+                                                    <a href="gallary.html">Our Gallary</a>
                                                 </li>
                                             </ul>
 
@@ -211,7 +211,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                             <a href="contact.html">Contact</a>
                                         </li>
                                        <li class="quick-enquiry-item ">
-                                            <a href="contact.html" class="quick-btn" >Quick Enquiry</a>
+                                            <a  class="quick-btn" id="enquiryBtn" >Quick Enquiry</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -231,9 +231,9 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
             <div class="container">
                 <div class="row">
                     <div class="col-3">
-                        <div class="logo">
+                        <div >
                             <a href="index.html">
-                            <img src="images/logo.png" class="img-fluid w-50" alt="logo">
+                            <img src="images/logo.png"alt="logo">
                         </a>
                         </div>
                     </div>
@@ -674,6 +674,45 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
         </div>
     </div></div></section>
     <!-- countries-section end -->
+
+<!-- countdown -->
+
+<div class="counter-area-two">
+    <div class="container">
+        <div class="counter-max">
+            <div class="row">
+                <div class="col-lg-3 col-6 col-md-3">
+                    <div class="counter-content">
+                        <i class="flaticon-open-book service-card"></i>
+                        <h3><span class="odometer" data-count="95">00</span>%</h3>
+                        <p>Success Rate</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 col-md-3">
+                    <div class="counter-content">
+                        <i class="flaticon-user service-card"></i>
+                        <h3><span class="odometer" data-count="25">00</span>+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 col-md-3">
+                    <div class="counter-content">
+                        <i class="flaticon-immigrant service-card"></i>
+                        <h3><span class="odometer" data-count="10000">00000</span>+</h3>
+                        <p>Happy Students</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 col-md-3">
+                    <div class="counter-content">
+                        <i class="flaticon-vision service-card"></i>
+                        <h3><span class="odometer" data-count="100">000</span>+</h3>
+                        <p>Institutions Partnered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- testimonial-section -->
     <section class="testimonial-section bg-color-1 wow animated fadeInLeft" data-wow-delay="0.3s">
@@ -1489,10 +1528,7 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
                                     <i class="fa fa-envelope text-white mr-2" aria-hidden="true"></i>
                                     <a href="mailto:Info@admissionshala.in">Info@admissionshala.in</a>
                                 </li>
-                                <li>
-                                    <i class="fa fa-envelope text-white mr-2" aria-hidden="true"></i>
-                                    <a href="mailto:ceo@Admissionshala-bd.net">ceo@Admissionshala-bd.net</a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -1519,6 +1555,19 @@ src="https://www.facebook.com/tr?id=1193739055257383&ev=PageView&noscript=1"
         <!-- main-footer end -->
         
   
+        <!-- pop up form -->
+         <!-- <div class="popup-overlay" id="popupForm">
+    <div class="popup-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h2>Quick Enquiry</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div> -->
 
 
         <!-- scroll to top -->

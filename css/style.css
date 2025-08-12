@@ -645,13 +645,8 @@ img {
 
 .header-top{
   width: 100%;
-    padding: 5px 0; /* reduce vertical space */
-
 }
 
-.header-top .outer-container{
-  padding: 0px 40px;
-}
 
 .header-top .info li{
   position: relative;
@@ -820,16 +815,17 @@ img {
 .header-middle .outer-container .logo-box{
   position: absolute;
   left: 0px;
-  top: 31px;
+  top: 20px;
   z-index: 2;
 }
 
 .header-middle .outer-container .logo-box .logo{
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .header-middle .outer-container .logo-box .logo img{
   width: 100%;
+  height: auto;
 }
 
 .header-middle .text p{
@@ -4017,7 +4013,7 @@ div#mCSB_1_container{
 
 .footer-top{
   position: relative;
-  padding: 103px 0px 107px 0px;
+  padding: 40px 0px 20px 0px;
   background: #142b3c;
 }
 
@@ -4209,7 +4205,7 @@ div#mCSB_1_container{
 }
 
 .footer-bottom{
-  padding: 22px 0px;
+  padding: 25px 0px 5px;
 }
 
 .footer-bottom p,
@@ -12825,7 +12821,7 @@ form button:hover {
 .quick-enquiry-item a.quick-btn {
     background-color:darkorange;
     color: #fff !important;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 20px 30px;
     font-size: 14px;
     font-weight: 500;
@@ -12835,7 +12831,7 @@ form button:hover {
 }
 
 .quick-enquiry-item a.quick-btn:hover {
-    background-color: #3786ff;
+    background-color: #1c51ac;
 }
 
 .quick-enquiryy {
@@ -12985,4 +12981,49 @@ header .logo img {
 }
 .header-upper {
     min-height: 150px !important;
+}
+
+/* countdown */
+    .counter-area-two {
+    background-color: #00AEEF; /* Main background */
+    padding: 40px 0;
+    border-radius: 12px;
+}
+
+.counter-content {
+    text-align: center;
+    color: #fff;
+}
+
+.counter-content i {
+    font-size: 48px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2); /* Light circle behind icon */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+}
+
+.counter-content h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.counter-content p {
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .counter-content {
+        margin-bottom: 20px;
+    }
 }
