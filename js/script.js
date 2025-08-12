@@ -757,19 +757,6 @@
 
 // ----
 
-document.querySelector('.quick-btnn').addEventListener('click', function() {
-    document.getElementById('popupForm').style.display = 'block';
-});
-
-document.getElementById('closePopup').addEventListener('click', function() {
-    document.getElementById('popupForm').style.display = 'none';
-});
-
-window.addEventListener('click', function(e) {
-    if (e.target.id === 'popupForm') {
-        document.getElementById('popupForm').style.display = 'none';
-    }
-});
 
 document.addEventListener("DOMContentLoaded", function () {
     const counters = document.querySelectorAll(".odometer");
@@ -791,5 +778,43 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         updateCounter();
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get elements
+    const quickEnquiryBtns = document.querySelectorAll('.quick-btnn, .quick-btn');
+    const enquiryPopup = document.getElementById('enquiryPopup');
+    const closePopup = document.querySelector('.close-popup');
+    
+    // Show popup when any quick enquiry button is clicked
+    quickEnquiryBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            enquiryPopup.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+    
+    // Close popup when X is clicked
+    closePopup.addEventListener('click', function() {
+        enquiryPopup.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    });
+    
+    // Close popup when clicking outside the content
+    enquiryPopup.addEventListener('click', function(e) {
+        if (e.target === enquiryPopup) {
+            enquiryPopup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    });
+    
+    // Close popup when pressing Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && enquiryPopup.classList.contains('active')) {
+            enquiryPopup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
     });
 });
