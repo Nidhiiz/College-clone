@@ -1566,6 +1566,10 @@ img {
   transition: all 500ms ease;
   z-index:5;
 }
+.mobile-menu .quick-enquiry-btn {
+    padding: 8px 15px; /* reduced vertical padding */
+    font-size: 14px;   /* smaller text for compact look */
+}
 
 .mobile-menu .navigation li.dropdown .dropdown-btn.open{
   color: #ffffff;
@@ -13089,4 +13093,37 @@ header .logo img {
     background: #2980b9;
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* === Mobile Menu Fixes === */
+@media (max-width: 991px) {
+
+    /* Move dropdown arrows closer to menu text */
+    .mobile-menu .dropdown-btn {
+        right: 20px !important;
+       
+    }
+
+    /* Reduce padding so arrows are closer */
+    .mobile-menu li a {
+        padding-right: 5px !important;
+    }
+
+    /* Compact Quick Enquiry button in mobile menu */
+    .mobile-menu .quick-enquiry-item a {
+        display: block;
+        padding: 5px 10px !important;   /* reduce vertical space */
+        font-size: 14px !important;
+        line-height: 18px !important;   /* compact text height */
+        min-height: auto !important;    /* remove forced height */
+        text-align: center;
+        width: 50%;
+    }
+  
+
+    /* Remove horizontal scroll in mobile menu */
+    .mobile-menu {
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
 }
