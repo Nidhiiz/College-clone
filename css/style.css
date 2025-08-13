@@ -13041,7 +13041,7 @@ header .logo img {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
+    z-index: 999999 !important;
     justify-content: center;
     align-items: center;
 }
@@ -13049,7 +13049,11 @@ header .logo img {
 .enquiry-popup.active {
     display: flex;
 }
-
+.enquiry-popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;            /* ← controls the vertical space */
+}
 .enquiry-popup-content {
     background: white;
     padding: 30px;
@@ -13057,9 +13061,11 @@ header .logo img {
     width: 90%;
     max-width: 500px;
     max-height: 90vh;
-    overflow-y: auto;
+    overflow-y: visible;
+    z-index: 1000000 !important;
     position: relative;
     animation: popupFadeIn 0.3s ease;
+      overflow: visible !important;
 }
 
 .close-popup {
